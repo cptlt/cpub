@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+</head>
+<body>
+
+<form action="{:U('User/index')}" method="post">
+    关键词：<input type="text" name="keywords">
+    类型：<select name="type">
+    <option value="username">用户名</option>
+    <option value="name">昵称</option>
+    <option value="id">ID</option>
+</select>
+    <input type="submit" value="查询">
+</form>
+
+<table border="1" bordercolor="black" width="50%">
+    <tr>
+        <th>
+            用户名：
+        </th>
+        <th>
+            邮箱：
+        </th>
+        <th>
+            是否激活
+        </th>
+        <th>
+            ID
+        </th>
+    </tr>
+
+    <volist name="ulist" id="user">
+        <tr>
+            <td><a href="{:U('User/edit?id='.$user['id'].'')}">{$user["username"]}</a>
+            </td>
+            <td>{$user['email']}</td>
+            <td>{$user['active']}</td>
+            <td>{$user['id']}</td>
+        </tr>
+    </volist>
+
+</table>
+
+</body>
+</html>
