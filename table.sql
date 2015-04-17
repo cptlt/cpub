@@ -89,5 +89,45 @@ CREATE TABLE cpub_menu_item(
   params TEXT NOT NULL
 )ENGINE MYISAM;
 
+/*用户角色表*/
+CREATE TABLE `cpub_role`(
+  `id` SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '角色分组ID',
+  `name` VARCHAR(20) NOT NULL COMMENT '角色分组名',
+  `pid` SMALLINT(6) NOT NULL COMMENT '父分组编号',
+  `status` TINYINT(3) UNSIGNED NOT NULL COMMENT '分组状态',
+  `remark` VARCHAR(255) NOT NULL COMMENT '分组描述',
+  PRIMARY KEY (`id`),
+  KEY `pid` (`pid`,`status`)
+)ENGINE=MYISAM DEFAULT CHARSET=utf8 COMMENT='角色分组信息';
 
+/*管理员分类明细表*/
+CREATE TABLE `cpub_role_user`(
+  `role_id` MEDIUMINT(8) UNSIGNED NOT NULL COMMENT '角色分组编号',
+  `user_id` MEDIUMINT(8) UNSIGNED NOT NULL COMMENT '会员编号',
+  PRIMARY KEY (`role_id`,`user_id`),
+  key `role_id` (`role_id`,`user_id`)
+)ENGINE=MYISAM DEFAULT CHARSET=utf8 COMMENT='角色分组明细';
 
+/*管理员操作权限表*/
+CREATE TABLE  `cpub_node`(
+  `id` SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '管理员操作权限节点编号',
+  `name` VARCHAR(20) NOT NULL COMMENT '项目名|模块名|操作名',
+  `title` VARCHAR(50) NOT NULL COMMENT '节点',
+  `status` TINYINT(3) UNSIGNED NOT NULL COMMENT '节点状态',
+  `remark` VARCHAR(255) NOT NULL COMMENT '详细描述',
+  `sort` SMALLINT(5) UNSIGNED NOT NULL COMMENT '节点排序',
+  `pid` SMALLINT(5) UNSIGNED NOT NULL COMMENT '父节点编号',
+  `level` TINYINT(3) UNSIGNED NOT NULL COMMENT '节点分级1 2 3',
+  PRIMARY KEY (`id`),
+  key `name` (`name`,`status`,`pid`)
+)ENGINE=MYISAM DEFAULT CHARSET=utf8 COMMENT='权限节点信息表';
+
+/*权限分配明细表*/
+CREATE TABLE `cpub_access`(
+  `role_id` SMALLINT(5) UNSIGNED NOT NULL COMMENT '角色分组编号',
+  `node_id` SMALLINT(5) UNSIGNED NOT NULL COMMENT '权限节点编号',
+  `level` TINYINT(4) NOT NULL COMMENT '分配权限节点的等级',
+  `pid` SMALLINT(6) NOT NULL COMMENT '分配权限节点的父节点',
+  PRIMARY KEY (`role_id`,`node_id`) COMMENT '联合主键',
+  KEY `role_id` (`role_id`,`node_id`)
+)ENGINE=MYISAM DEFAULT CHARSET=utf8 COMMENT='权限分配明细表';

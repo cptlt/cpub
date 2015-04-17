@@ -53,4 +53,17 @@ class SectionAction extends CommonAction{
     function update(){
 
     }
+
+    /*
+     * 提取单元中的所有数据信息供用户选择
+     */
+    public function helper(){
+
+        echo '提取单元中的所有数据信息供用户选择,进行菜单项的创建！';
+
+        $sec = new SectionModel();
+        $list = $sec->select();
+
+        echo '<a href="__APP__/MenuItem/add">下一步</a>';
+    }
 }
