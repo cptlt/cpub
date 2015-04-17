@@ -1,0 +1,13 @@
+#logo{
+	background-image: url(../images/firefox.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 20px 15px;
+	height: 50px;background-color: yellow;
+}
+.pull-left{
+	width: 150px;
+}
+.pull-left h4,.pull-left li{
+	cursor:pointer;
+}
