@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>模块</title>
+</head>
+<body>
+<volist name="modList" id="row">
+    模块标题：{$row['title']}<br>
+<!--    模块内容：{$row['content']}<br>
+    模块定位：{$row['position']}<br>
+    是否发布：{$row['published']}<br>
+    模块名：{$row['module']}<br>-->
+    {:W($row['module'],array('params'=>$row['params']))}
+</volist>
+</body>
+</html>

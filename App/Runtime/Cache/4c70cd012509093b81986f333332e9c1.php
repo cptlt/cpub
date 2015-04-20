@@ -1,0 +1,3 @@
+<?php if (!defined('THINK_PATH')) exit();?><ol>
+    <?php if(is_array($mlist)): $i = 0; $__LIST__ = $mlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$row): $mod = ($i % 2 );++$i;?><li style="margin-left: <?php echo ($row['marginnum']); ?>px;"><a href="<?php echo ($row['link']); ?>" ><?php echo ($row['name']); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+</ol>
