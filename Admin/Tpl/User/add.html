@@ -2,16 +2,21 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>创建用户</title>
 </head>
 <body>
 <form action="{:U('User/insert')}" method="post">
-    用户名：<input type="text" name="uname"/><br>
+    用户名：<input type="text" name="username"/><br>
     密 码：<input type="password" name="pwd"/><br>
     昵 称：<input type="text" name="name"/><br>
     邮 箱：<input type="text" name="email"/><br>
-    激 活：<input type="radio" name="active" value="1" checked="checked"/>
-    <input type="radio" name="active" value="0"/><br>
+    用户组：<select name="role_id" size="1">
+    <volist name="roleList" id="row">
+        <option value="{$row['id']}">{$row['name']}</option>
+    </volist>
+</select>
+    激 活：是<input type="radio" name="active" value="1" checked="checked"/>
+    否<input type="radio" name="active" value="0"/><br>
     <input type="submit" value="提交">
 </form>
 </body>
