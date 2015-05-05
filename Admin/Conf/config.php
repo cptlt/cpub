@@ -1,11 +1,11 @@
 <?php
 return array(
     //'配置项'=>'配置值'
-    'PAGESIZE' => 10,//分页大小配置
+    'PAGE_SIZE' => 5,//分页大小配置
 //    'LOAD_EXT_CONFIG'   =>  'user',
     'URL_MODEL' => 1,//设置URL模式
     'VAR_URL_PARAMS' => '_URL',
-//    'URL_HTML_SUFFIX'   =>  'shtml|html|xml',
+    'URL_HTML_SUFFIX'   =>  'shtml|html|xml',
     'SHOW_PAGE_TRACE' => true,
     'MODULES'=>array(
         'Menu'=>'菜单模块',

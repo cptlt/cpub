@@ -131,3 +131,17 @@ CREATE TABLE `cpub_access`(
   PRIMARY KEY (`role_id`,`node_id`) COMMENT '联合主键',
   KEY `role_id` (`role_id`,`node_id`)
 )ENGINE=MYISAM DEFAULT CHARSET=utf8 COMMENT='权限分配明细表';
+
+/*widget模块表*/
+CREATE TABLE  `cpub_modules`(
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT '模块id',
+  `title` VARCHAR(50) NOT NULL COMMENT '模块标题',
+  `content` VARCHAR(255) NOT NULL COMMENT '模块内容',
+  `order` INT NOT NULL COMMENT '排序',
+  `position` VARCHAR(50) NOT NULL COMMENT '模块定位',
+  `published` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '是否发布',
+  `module` VARCHAR(255) NOT NULL COMMENT '模块名',
+  `access` TINYINT(3) UNSIGNED NOT NULL DEFAULT 0 COMMENT '访问等级',
+  `showtitle` TINYINT(3) UNSIGNED NOT NULL DEFAULT 0 COMMENT '是否显示标题',
+  params TEXT NOT NULL
+)ENGINE=MYISAM DEFAULT CHARSET=utf8 COMMENT='Widget模块表';
