@@ -1,0 +1,25 @@
+.first-td{
+	line-height: 34px !important;
+	width: 70px;
+	text-align: right;
+}
+.second-td{
+	padding-left: 20px !important;
+}
+table{
+	border-collapse:initial;
+	border-spacing: 10px;
+}
+tr{
+	margin: 5px !important;
+	
+}
+.ridio{
+	display: inline-block;
+	margin-left: 40px !important;
+	margin-right: 10px !important;
+}
+.submit{
+	width: 120px;
+	margin-left: 60px;
+}
