@@ -1,9 +1,6 @@
 <?php
 /**
  * Category控制器(分类控制器)
- * User: Inen
- * Date: 2015/4/9
- * Time: 18:58
  */
 
 class CategoryAction extends CommonAction{

@@ -1,9 +1,6 @@
 <?php
 /**
  * 单元模型(继承关联模型)
- * User: Inen
- * Date: 2015/4/9
- * Time: 14:32
  */
 
 class SectionModel extends RelationModel{
@@ -15,7 +12,7 @@ class SectionModel extends RelationModel{
             'class_name'=>'Category',     //类名为分类
             'foreign_key'=>'sectionid',   //实现关联的外键(为分类表中的字段)
             'mapping_name'=>'categorys', //映射的时候作为字段名
-            'mapping _order'=>'sectionid desc',
+            'mapping_order'=>'sectionid desc',
         ),
 
         'Article'=>array(
@@ -53,6 +50,4 @@ class SectionModel extends RelationModel{
     protected $_map = array(
 
     );
-
-    //
 }

@@ -1,21 +1,17 @@
 <?php
 /**
  * 单元控制器
- * User: Inen
- * Date: 2015/4/9
- * Time: 14:42
  */
 
 class SectionAction extends CommonAction{
 
     /*
-     *
+     * index操作，单元的列表显示
      */
     function index(){
 
         $sec = new SectionModel();
         $list = $sec->relation(true)->select(); //->find(1)是查询单位编号为1的单元的相关内容
-        //dump($list);
 
         //创建数据(通过该操作可以批量生成数据)
         $data['title'] = '自定义单元1';
@@ -30,6 +26,8 @@ class SectionAction extends CommonAction{
 
         //删除数据
         $sec->relation(true)->delete(5);
+
+        $this->display();
 
     }
 
