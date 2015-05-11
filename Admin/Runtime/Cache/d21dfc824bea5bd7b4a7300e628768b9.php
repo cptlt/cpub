@@ -9,8 +9,8 @@
 
 <body>
 <script type="text/javascript">
-    function del(){
-        if (window.confirm("确认删除所选用户!")){
+    function del() {
+        if (window.confirm("确认删除所选用户!")) {
             document.adminForm.submit();
         }
     }
@@ -39,8 +39,9 @@
                     <div class="btn btn-default visibility"></div>
                     <a class="btn btn-success" id="add" href="__URL__/add"> <span class="glyphicon glyphicon-plus"
                                                                                   aria-hidden="true"></span> 添加 </a>
-                    <a class="btn btn-danger" id="delete" href="__URL__/delete" onclick="del();return false;"> <span class="glyphicon glyphicon-edit"
-                                                                                       aria-hidden="true"></span> 删除
+                    <a class="btn btn-danger" id="delete" href="__URL__/delete" onclick="del();return false;"> <span
+                            class="glyphicon glyphicon-edit"
+                            aria-hidden="true"></span> 删除
                     </a>
                     <a class="btn btn-info" id="help" href="#"> <span class="glyphicon glyphicon-question-sign"
                                                                       aria-hidden="true"></span> 帮助 </a>
@@ -62,6 +63,9 @@
                                 是否激活
                             </th>
                             <th>
+                                所属用户组
+                            </th>
+                            <th>
                                 ID
                             </th>
                         </tr>
@@ -70,14 +74,21 @@
                                 <td>
                                     <input type="checkbox" name="did[]" value="<?php echo ($user['id']); ?>">
                                 </td>
-                                <td><a href="<?php echo U('User/edit?id='.$user['id'].'');?>"><?php echo ($user["username"]); ?></a>
+                                <td><a href="__URL__/edit/id/<?php echo ($user['id']); ?>"><?php echo ($user["username"]); ?></a>
                                 </td>
                                 <td><?php echo ($user['email']); ?></td>
-                                <td><?php echo ($user['active']); ?></td>
+                                <td>
+                                    <?php if(($user['active']) == "1"): ?>启用
+                                        <?php else: ?>
+                                        禁用<?php endif; ?>
+                                </td>
+                                <td>
+                                    <?php echo ($user['group']); ?>
+                                </td>
                                 <td><?php echo ($user['id']); ?></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         <tr>
-                            <td colspan="4">
+                            <td colspan="6">
                                 <?php echo ($show); ?>
                             </td>
                         </tr>

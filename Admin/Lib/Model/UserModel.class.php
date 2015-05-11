@@ -28,11 +28,11 @@ class UserModel extends Model
     function checkUserName()
     {
 
-        $user = M('User');
+        $User = M('User');
 
         if (empty($_POST['id'])) {
             //添加用户时的验证
-            if ($user->getByUsername($_POST['username'])) {
+            if ($User->getByUsername($_POST['username'])) {
                 //用户名已经存在
                 return false;
             } else {
@@ -41,7 +41,7 @@ class UserModel extends Model
         } else {
             //编辑用户时的验证
             //用户名不与自己相同，与别人进行比较
-            if ($user->where("id!={$_POST['id']} and username='{$_POST['email']}'")->find()) {
+            if ($User->where("id!={$_POST['id']} and username='{$_POST['email']}'")->find()) {
                 //新编辑的用户名已经存在
                 return false;
             } else {
@@ -56,11 +56,11 @@ class UserModel extends Model
     function checkEmail()
     {
 
-        $user = M('User');
+        $User = M('User');
 
         if (empty($_POST['id'])) {
             //添加用户时的验证
-            if ($user->getByEmail($_POST['email'])) {
+            if ($User->getByEmail($_POST['email'])) {
                 //邮箱已经存在
                 return false;
             } else {
@@ -69,7 +69,7 @@ class UserModel extends Model
         } else {
             //编辑用户时的验证(不能和自己以前的邮箱比较，否则会出错)
             //邮箱不与自己相同，与别人进行比较
-            if ($user->where("id!={$_POST['id']} and email='{$_POST['email']}'")->find()) {
+            if ($User->where("id!={$_POST['id']} and email='{$_POST['email']}'")->find()) {
                 //新编辑的邮箱与他人邮箱重复
                 return false;
             } else {
@@ -83,7 +83,7 @@ class UserModel extends Model
      */
     function checkPwd()
     {
-        $password = $_POST['pwd'];
+        $password = $_POST['password'];
         if (strlen($password) >= 6) {
             return true;
         } else {

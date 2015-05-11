@@ -142,13 +142,18 @@ class UserAction extends CommonAction
                     } else {
                         $this->error('更新失败！' . $RoleUser->getDbError());
                     }
-
                 } else {
                     $this->error('更新失败，失败原因：' . $User->getDbError());
                 }
             } else {
                 $this->error('没有用户编号！');
             }
+//            dump($data);
+//            dump($User->password);
+//            $User->password = empty($User->password) ? $oldPassword : md5($User->password);
+//            dump($User->password);
+//            $ru['role_id'] = $_POST['role_id'];
+//            dump($ru);
         } else {
             $this->error($User->getError());
         }
