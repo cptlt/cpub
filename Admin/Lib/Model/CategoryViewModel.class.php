@@ -2,15 +2,15 @@
 /**
  * 分类视图模型
  * 主要用在查询上，去除多张表显示模型，比较直观
- * User: Inen
- * Date: 2015/4/9
- * Time: 18:44
  */
 
 class CategoryViewModel extends ViewModel{
 
+    /*
+     * 定义查询表结构
+     */
     protected $viewFields = array(
-        //取出Category表中的我们需要的数据(自动检测数据表信息)
+        //取Category表中需要用到的字段
         'Category'=>array(
             'id'=>'cid',
             'title'=>'ctitle',
@@ -20,7 +20,7 @@ class CategoryViewModel extends ViewModel{
             'access'=>'caccess',
             'sectionid',
         ),
-        //Section表中的数据
+        //取Section表中需要用到的字段
         'Section'=>array(
             'title'=>'sec_name',
             '_on'=>'Category.sectionid=Section.id',

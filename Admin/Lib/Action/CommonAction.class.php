@@ -24,7 +24,6 @@ class CommonAction extends Action {
                 //判断是否开启游客功能
                 if(!C('GUEST_AUTH_ON')){
                     //开启则跳转到游客页面
-
                 }
 
                 $this->error('对不起，您没有操作权限！');

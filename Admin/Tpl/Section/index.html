@@ -19,7 +19,6 @@
     类型：<select name="type">
         <option value="title">单元名称</option>
         <option value="id">ID</option>
-        <option value="published">已启用单元</option>
 </select>
     <input type="submit" value="查询">
 </form>
@@ -28,8 +27,11 @@
 <a href="__URL__/delete" onclick="del();return false;">删除</a>
 
 <form action="__URL__/delete" name="adminForm" method="post">
-    <table>
+    <table border="1">
         <tr>
+            <th>
+                全选
+            </th>
             <th>
                 单元名
             </th>
@@ -46,6 +48,29 @@
                 访问权限等级
             </th>
         </tr>
+
+        <volist name="sectionList" id="sec">
+            <tr>
+                <td>
+                    <input type="checkbox" name="did[]" value="{$sec['id']}">
+                </td>
+                <td>
+                    {$sec['title']}
+                </td>
+                <td>
+                    {$sec['alias']}
+                </td>
+                <td>
+                    {$sec['description']}
+                </td>
+                <td>
+                    {$sec['published']}
+                </td>
+                <td>
+                    {$sec['access']}
+                </td>
+            </tr>
+        </volist>
     </table>
 </form>
 </body>

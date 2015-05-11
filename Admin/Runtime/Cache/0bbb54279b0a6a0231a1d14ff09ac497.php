@@ -19,7 +19,6 @@
     类型：<select name="type">
         <option value="title">单元名称</option>
         <option value="id">ID</option>
-        <option value="published">已启用单元</option>
 </select>
     <input type="submit" value="查询">
 </form>
@@ -28,8 +27,11 @@
 <a href="__URL__/delete" onclick="del();return false;">删除</a>
 
 <form action="__URL__/delete" name="adminForm" method="post">
-    <table>
+    <table border="1">
         <tr>
+            <th>
+                全选
+            </th>
             <th>
                 单元名
             </th>
@@ -46,6 +48,27 @@
                 访问权限等级
             </th>
         </tr>
+
+        <?php if(is_array($sectionList)): $i = 0; $__LIST__ = $sectionList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$sec): $mod = ($i % 2 );++$i;?><tr>
+                <td>
+                    <input type="checkbox" name="did[]" value="<?php echo ($sec['id']); ?>">
+                </td>
+                <td>
+                    <?php echo ($sec['title']); ?>
+                </td>
+                <td>
+                    <?php echo ($sec['alias']); ?>
+                </td>
+                <td>
+                    <?php echo ($sec['description']); ?>
+                </td>
+                <td>
+                    <?php echo ($sec['published']); ?>
+                </td>
+                <td>
+                    <?php echo ($sec['access']); ?>
+                </td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
     </table>
 </form>
 </body>

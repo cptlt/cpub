@@ -1,6 +1,6 @@
 <?php
 /**
- *Public控制器(用于输出login页面模版、进行表单验证等)
+ * Public控制器(用于输出login页面模版、进行表单验证等)
  */
 
 class PublicAction extends Action{
@@ -61,6 +61,7 @@ class PublicAction extends Action{
             }//else 密码验证成功
 
             //保存SESSION会话标识，用来后面判断用户已经登录的状态
+            session_start();
             $_SESSION[C('USER_AUTH_KEY')]=$user['id'];
             //存储后面要用的用户数据，邮箱、登录时间
             $_SESSION['email']=$user['email'];
