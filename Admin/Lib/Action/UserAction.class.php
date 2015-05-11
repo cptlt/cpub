@@ -136,6 +136,7 @@ class UserAction extends CommonAction
                 if ($User->save() !== false) {
                     //更新role_user表
                     $ru['role_id'] = $_POST['role_id'];
+                    $ru['user_id'] = $_POST['id'];
                     $RoleUser = new Model('RoleUser');
                     if ($RoleUser->where('user_id=' . $data['id'])->save($ru)) {
                         $this->success('更新成功', __URL__ . '/index');
@@ -148,12 +149,6 @@ class UserAction extends CommonAction
             } else {
                 $this->error('没有用户编号！');
             }
-//            dump($data);
-//            dump($User->password);
-//            $User->password = empty($User->password) ? $oldPassword : md5($User->password);
-//            dump($User->password);
-//            $ru['role_id'] = $_POST['role_id'];
-//            dump($ru);
         } else {
             $this->error($User->getError());
         }
