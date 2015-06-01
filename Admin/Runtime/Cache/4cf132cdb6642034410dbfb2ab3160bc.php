@@ -86,6 +86,7 @@
                                 <td><?php echo ($Article['stitle']); ?></td>
                                 <td><?php echo ($Article['username']); ?></td>
                                 <td><?php echo ($Article['apublished']); ?></td>
+                                <td><?php echo ($Article['apublished']); ?></td>
                                 <td><?php echo ($Article['hits']); ?></td>
                                 <td><?php echo ($Article['created']); ?></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>

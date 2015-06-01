@@ -29,7 +29,7 @@
                     关键词：
                     <input type="text" name="keywords" class="form-control keywords ">
                     类型：
-                    <select name="type">
+                    <select name="type" style="height: 32px">
                         <option value="username">用户名</option>
                         <option value="name">昵称</option>
                         <option value="id">ID</option>

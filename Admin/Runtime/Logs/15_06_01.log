@@ -1,0 +1,468 @@
+[ 2015-06-01T13:36:29+08:00 ] 0.0.0.0 /cpub/admin.php/welcome.html
+ERR: 无法加载模块:welcome
+
+[ 2015-06-01T17:27:09+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:27:09+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:27:09+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:27:09+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:27:09+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:27:09+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:28:00+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:00+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:00+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:00+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:00+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:00+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:02+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:02+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:02+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:02+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:02+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:02+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:03+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:04+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:05+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:32+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/config.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:32+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/bui-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:32+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/dpl-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:32+08:00 ] 0.0.0.0 /cpub/admin.php/assets/css/main-min.css
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:32+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/bui.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:28:32+08:00 ] 0.0.0.0 /cpub/admin.php/assets/js/jquery-1.8.1.min.js
+ERR: 无法加载模块:assets
+
+[ 2015-06-01T17:29:46+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:46+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:46+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:46+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:46+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:46+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:47+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:48+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:48+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:48+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:48+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:48+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:29:48+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:49+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/config.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:49+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/jquery-1.8.1.min.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:49+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/dpl-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:49+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/main-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:49+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/css/bui-min.css
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:31:49+08:00 ] 0.0.0.0 /cpub/admin.php/Index/assets/js/bui.js
+ERR: 非法操作:assets
+
+[ 2015-06-01T17:33:13+08:00 ] 0.0.0.0 /cpub/admin.php/Index/main/code.html
+ERR: 非法操作:main
+
+[ 2015-06-01T17:36:05+08:00 ] 0.0.0.0 /cpub/admin.php/Index/%7B:U('User/index')%7D
+ERR: 非法操作:{:U('User
+
+[ 2015-06-01T17:38:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/%7B:U('User/index')%7D
+ERR: 非法操作:{:U('User
+
+[ 2015-06-01T17:38:31+08:00 ] 0.0.0.0 /cpub/admin.php/Index/main/menu.html
+ERR: 非法操作:main
+
+[ 2015-06-01T17:38:32+08:00 ] 0.0.0.0 /cpub/admin.php/Index/%7B:U('User/index')%7D
+ERR: 非法操作:{:U('User
+
+[ 2015-06-01T17:38:44+08:00 ] 0.0.0.0 /cpub/admin.php/Index/%7B:U('Index/index')%7D
+ERR: 非法操作:{:U('Index
+
+[ 2015-06-01T17:40:23+08:00 ] 0.0.0.0 /cpub/admin.php/Index/User/index.html
+ERR: 非法操作:User
+
+[ 2015-06-01T17:50:30+08:00 ] 0.0.0.0 /cpub/admin.php/Index/%7B:U('User/index')%7D
+ERR: 非法操作:{:U('User
+
+[ 2015-06-01T17:53:23+08:00 ] 0.0.0.0 /cpub/admin.php/Index/add
+ERR: 非法操作:add
+
+[ 2015-06-01T17:56:53+08:00 ] 0.0.0.0 /cpub/admin.php/Index/%7B:U('User/index')%7D
+ERR: 非法操作:{:U('User
+
+[ 2015-06-01T18:00:19+08:00 ] 0.0.0.0 /cpub/admin.php/Index/main/second-menu.html
+ERR: 非法操作:main
+
+[ 2015-06-01T18:00:51+08:00 ] 0.0.0.0 /cpub/admin.php/Index/main/menu.html
+ERR: 非法操作:main
+
+[ 2015-06-01T18:20:03+08:00 ] 0.0.0.0 /cpub/admin.php/Index/form/success.html
+ERR: 非法操作:form
+
+[ 2015-06-01T18:25:46+08:00 ] 0.0.0.0 /cpub/admin.php/Menu/index
+ERR: 无法加载模块:Menu
+
+[ 2015-06-01T18:25:47+08:00 ] 0.0.0.0 /cpub/admin.php/Menu/add
+ERR: 无法加载模块:Menu
+
+[ 2015-06-01T18:25:49+08:00 ] 0.0.0.0 /cpub/admin.php/Menu/edit
+ERR: 无法加载模块:Menu
+
+[ 2015-06-01T18:25:50+08:00 ] 0.0.0.0 /cpub/admin.php/Menu/add
+ERR: 无法加载模块:Menu
+

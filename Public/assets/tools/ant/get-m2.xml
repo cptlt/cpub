@@ -21,7 +21,7 @@
    Build file to fetch maven2 tasks; extracted from (Ant's) fetch.xml
   =======================================================================
 -->
-<project name="get-m2" default="get-m2" basedir=".">
+<project name="get-m2" default="get-m2" basedir="">
 
 <description>
   This build file downloads the Maven2 Ant tasks,

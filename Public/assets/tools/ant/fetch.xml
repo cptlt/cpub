@@ -21,7 +21,7 @@
     Build file to fetch optional libraries for Apache Ant
   =======================================================================
 -->
-<project name="fetch" default="all" basedir=".">
+<project name="fetch" default="all" basedir="">
 
 <description>
   This build file downloads JAR files that optional Ant tasks use,
